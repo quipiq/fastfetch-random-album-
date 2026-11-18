@@ -8,7 +8,7 @@ Une bibliothèque d'images est déjà présente, mais vous pouvez ajouter/rempla
 
 ## Utilisation
 
-###Configuration 
+### Configuration 
 
 Le scrit img_aleatoire.sh permet de génerer un lien symbolic sur une image aléatoire du dossier album.
 
@@ -18,8 +18,8 @@ Il va donc falloir le lancer à l'ouverture du terminal.
 
 Allez dans le fichier .zshrc puis tout en haut du fichier copier coller les lignes 
 
-'''/Users/MonUser/.config/fastfetch/fastfetch-random-album-/img_aleatoire.sh
-fastfetch -c /Users/MonUser/.config/fastfetch/fastfetch-random-album-/config.jsonc''' 
+''' /Users/MonUser/.config/fastfetch/fastfetch-random-album-/img_aleatoire.sh
+fastfetch -c /Users/MonUser/.config/fastfetch/fastfetch-random-album-/config.jsonc ''' 
 
 en remplaçant MonUser par votre nom d'utilisateur.
 
@@ -27,8 +27,8 @@ en remplaçant MonUser par votre nom d'utilisateur.
 
 Allez dans le fichier .zshrc puis tout en haut du fichier copier coller les lignes
 
-'''/Users/MonUser/.config/fastfetch/fastfetch-random-album-/img_aleatoire.sh
-fastfetch -c /Users/MonUser/.config/fastfetch/fastfetch-random-album-/config.jsonc'''
+''' /Users/MonUser/.config/fastfetch/fastfetch-random-album-/img_aleatoire.sh
+fastfetch -c /Users/MonUser/.config/fastfetch/fastfetch-random-album-/config.jsonc '''
 
 en remplaçant MonUser par votre nom d'utilisateur.
 
@@ -39,13 +39,13 @@ redimension du programme est celle qui convient à ma configuration.
 
 Pour redimensionner une image il faut utiliser la commande 
 
-'''./img_resize image.jpg'''
+''' ./img_resize image.jpg '''
 
 où image.jpg est l'image à redimensionner qui doit se trouver dans le dossier album
 
 Pour changer la taille du redimansionnement il faut changer la ligne 
 
-'''if magick album/$1 -resize largeurxhauter\! album/$1 2>/dev/null; then'''
+''' if magick album/$1 -resize largeurxhauter\! album/$1 2>/dev/null; then '''
 
 dans le fichier img_rezise.sh en remplaçant largeur et hauteur par ce que vous voulez.
 
